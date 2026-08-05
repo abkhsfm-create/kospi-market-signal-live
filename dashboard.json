@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T07:20:32.589Z",
+  "generatedAt": "2026-08-05T07:28:09.555Z",
+  "freshUntil": "2026-08-08T07:28:09.555Z",
+  "phase": "snapshot",
   "predictionDate": "2026-08-05",
   "forecastTimeKst": "07:00",
   "sourceCommit": "23fa1fb7129b0ad696bfc5d68638560a47dce48d",

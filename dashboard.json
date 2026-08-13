@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T12:07:04.547Z",
+  "generatedAt": "2026-08-13T14:45:20.212Z",
   "freshUntil": "2026-08-14T07:30:00+09:00",
-  "phase": "preliminary",
+  "phase": "evaluate",
   "predictionDate": "2026-08-13",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "591188eb49450c37015f0cc3db5311c030cd71aa",
+  "sourceCommit": "adfa6606099d0bce9ac24c958d3172855b40b464",
   "dashboard": {
     "predictionDate": "2026-08-13",
     "createdAt": "2026-08-13T00:10:58.204Z",
@@ -13,7 +13,12 @@
     "performanceEligible": false,
     "recovery": null,
     "sourceStatus": "partial",
-    "evaluation": null,
+    "evaluation": {
+      "completedAt": "2026-08-13T14:45:18.728Z",
+      "eligible": false,
+      "preliminaryEligible": false,
+      "note": "예정된 시각에 고정되지 않은 예측은 성과 표본에서 제외됩니다."
+    },
     "predictions": {
       "hyundai": {
         "name": "현대차",
@@ -39,7 +44,14 @@
         "expectedIntradayChangePct": -0.8,
         "upProbability": 53,
         "direction": "혼조권",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 419500,
+          "actualClosePrice": 418500,
+          "openPriceErrorPct": 1.38,
+          "closePriceErrorPct": 1.94,
+          "eligible": false,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -70,7 +82,14 @@
         "expectedIntradayChangePct": -0.53,
         "upProbability": 69,
         "direction": "상승 우세",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 267500,
+          "actualClosePrice": 268000,
+          "openPriceErrorPct": 2.88,
+          "closePriceErrorPct": 3.58,
+          "eligible": false,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -101,7 +120,14 @@
         "expectedIntradayChangePct": -1.33,
         "upProbability": 65,
         "direction": "상승 우세",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 1582000,
+          "actualClosePrice": 1593000,
+          "openPriceErrorPct": 2.65,
+          "closePriceErrorPct": 4.61,
+          "eligible": false,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -168,7 +194,12 @@
       "performanceEligible": false,
       "recovery": null,
       "sourceStatus": "partial",
-      "evaluation": null,
+      "evaluation": {
+        "completedAt": "2026-08-13T14:45:18.728Z",
+        "eligible": false,
+        "preliminaryEligible": false,
+        "note": "예정된 시각에 고정되지 않은 예측은 성과 표본에서 제외됩니다."
+      },
       "predictions": {
         "hyundai": {
           "name": "현대차",
@@ -194,7 +225,14 @@
           "expectedIntradayChangePct": -0.8,
           "upProbability": 53,
           "direction": "혼조권",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 419500,
+            "actualClosePrice": 418500,
+            "openPriceErrorPct": 1.38,
+            "closePriceErrorPct": 1.94,
+            "eligible": false,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -225,7 +263,14 @@
           "expectedIntradayChangePct": -0.53,
           "upProbability": 69,
           "direction": "상승 우세",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 267500,
+            "actualClosePrice": 268000,
+            "openPriceErrorPct": 2.88,
+            "closePriceErrorPct": 3.58,
+            "eligible": false,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -256,7 +301,14 @@
           "expectedIntradayChangePct": -1.33,
           "upProbability": 65,
           "direction": "상승 우세",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 1582000,
+            "actualClosePrice": 1593000,
+            "openPriceErrorPct": 2.65,
+            "closePriceErrorPct": 4.61,
+            "eligible": false,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -830,6 +882,16 @@
       "status": "missed",
       "detectedAt": "2026-08-12T12:06:34.894Z",
       "reason": "예약 실행이 해당 시간창 안에 전망 또는 채점을 완료하지 못했습니다."
+    },
+    {
+      "id": "2026-08-13:evaluate",
+      "predictionDate": "2026-08-13",
+      "phase": "evaluate",
+      "scheduledDateKst": "2026-08-13",
+      "scheduledTimeKst": "20:00",
+      "status": "missed",
+      "detectedAt": "2026-08-13T14:45:18.729Z",
+      "reason": "07시 적격 예측이 없어 성과 채점만 건너뛰었습니다. 비적격 복구 예측과 과거 미채점 실측은 점수표본에서 제외한 채 보존합니다."
     },
     {
       "id": "2026-08-14:preliminary",

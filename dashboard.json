@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:47:18.321Z",
+  "generatedAt": "2026-08-17T22:56:55.913Z",
   "freshUntil": "2026-08-18T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-08-18",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "eb00079df5c56c0b5df36b13b35abef0b0ada067",
+  "sourceCommit": "601c8fb1416d2f907afa6cf5db5ca20d2fc43671",
   "dashboard": {
     "predictionDate": "2026-08-18",
-    "createdAt": "2026-08-17T22:47:16.934Z",
+    "createdAt": "2026-08-17T22:56:54.519Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -152,18 +152,18 @@
       },
       "brent": {
         "label": "Brent",
-        "close": 91.21,
-        "changePct": 3.04
+        "close": 91.28,
+        "changePct": 3.12
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1416.54,
-        "changePct": 0.08
+        "close": 1416.4,
+        "changePct": 0.07
       }
     },
     "finalForecast": {
       "predictionDate": "2026-08-18",
-      "createdAt": "2026-08-17T22:47:16.934Z",
+      "createdAt": "2026-08-17T22:56:54.519Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -307,13 +307,13 @@
         },
         "brent": {
           "label": "Brent",
-          "close": 91.21,
-          "changePct": 3.04
+          "close": 91.28,
+          "changePct": 3.12
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1416.54,
-          "changePct": 0.08
+          "close": 1416.4,
+          "changePct": 0.07
         }
       }
     },
@@ -906,7 +906,7 @@
       "scheduledDateKst": "2026-08-18",
       "scheduledTimeKst": "07:00",
       "status": "missed",
-      "detectedAt": "2026-08-17T22:47:17.006Z",
+      "detectedAt": "2026-08-17T22:56:54.590Z",
       "reason": "Forecast phase morning failed with status 1."
     },
     {

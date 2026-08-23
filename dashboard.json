@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T22:02:18.765Z",
+  "generatedAt": "2026-08-23T22:54:05.138Z",
   "freshUntil": "2026-08-24T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-08-24",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "149ba026d4c457d582fc6724dc03471f049959e2",
+  "sourceCommit": "c19e3b3de430766ffabf10c3e988909706f7fa60",
   "dashboard": {
     "predictionDate": "2026-08-24",
-    "createdAt": "2026-08-23T22:02:17.329Z",
+    "createdAt": "2026-08-23T22:54:03.566Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -147,23 +147,23 @@
       },
       "wti": {
         "label": "WTI",
-        "close": 87.06,
-        "changePct": -0.88
+        "close": 86.34,
+        "changePct": -0.83
       },
       "brent": {
         "label": "Brent",
-        "close": 94.39,
-        "changePct": 0.65
+        "close": 93.64,
+        "changePct": -0.79
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1385.98,
-        "changePct": -0.35
+        "close": 1386.01,
+        "changePct": -0.34
       }
     },
     "finalForecast": {
       "predictionDate": "2026-08-24",
-      "createdAt": "2026-08-23T22:02:17.329Z",
+      "createdAt": "2026-08-23T22:54:03.566Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -302,18 +302,18 @@
         },
         "wti": {
           "label": "WTI",
-          "close": 87.06,
-          "changePct": -0.88
+          "close": 86.34,
+          "changePct": -0.83
         },
         "brent": {
           "label": "Brent",
-          "close": 94.39,
-          "changePct": 0.65
+          "close": 93.64,
+          "changePct": -0.79
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1385.98,
-          "changePct": -0.35
+          "close": 1386.01,
+          "changePct": -0.34
         }
       }
     },
@@ -1103,7 +1103,7 @@
       "scheduledDateKst": "2026-08-24",
       "scheduledTimeKst": "07:00",
       "status": "missed",
-      "detectedAt": "2026-08-23T22:02:17.406Z",
+      "detectedAt": "2026-08-23T22:54:03.627Z",
       "reason": "Forecast phase morning failed with status 1."
     },
     {

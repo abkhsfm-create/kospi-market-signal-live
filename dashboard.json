@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T22:09:54.021Z",
-  "freshUntil": "2026-09-01T19:30:00+09:00",
-  "phase": "morning",
+  "generatedAt": "2026-09-01T10:01:28.318Z",
+  "freshUntil": "2026-09-01T20:30:00+09:00",
+  "phase": "preliminary",
   "predictionDate": "2026-09-01",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "241ad42bca91e08017a8b22bcb38df585b103150",
+  "sourceCommit": "609b563794594479d1a61e00ff0da9728c1a5ffd",
   "dashboard": {
     "predictionDate": "2026-09-01",
     "createdAt": "2026-08-31T22:00:03.696Z",
@@ -318,8 +318,8 @@
       }
     },
     "preliminaryForecast": {
-      "predictionDate": "2026-09-01",
-      "createdAt": "2026-08-31T10:01:26.461Z",
+      "predictionDate": "2026-09-02",
+      "createdAt": "2026-09-01T10:01:26.662Z",
       "forecastTimeKst": "19:00",
       "performanceEligible": false,
       "recovery": null,
@@ -329,15 +329,15 @@
         "hyundai": {
           "name": "현대차",
           "ticker": "005380",
-          "priorClose": 403500,
-          "priorVolume": 762337,
-          "volumeRatio": 1.2,
-          "foreignNetBuy": 140275,
-          "expectedOpenPrice": 403900,
-          "expectedOpenChangePct": 0.11,
+          "priorClose": 400500,
+          "priorVolume": 400976,
+          "volumeRatio": 0.65,
+          "foreignNetBuy": -4991,
+          "expectedOpenPrice": 401200,
+          "expectedOpenChangePct": 0.18,
           "expectedOpenRange": {
-            "low": 391400,
-            "high": 416500
+            "low": 389300,
+            "high": 414800
           },
           "expectedClosePrice": null,
           "expectedPrice": null,
@@ -345,8 +345,8 @@
           "predictedChangePct": null,
           "expectedCloseRange": null,
           "expectedIntradayChangePct": null,
-          "upProbability": 51,
-          "direction": "혼조권",
+          "upProbability": 55,
+          "direction": "상승 우세",
           "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
@@ -357,15 +357,15 @@
         "samsung": {
           "name": "삼성전자",
           "ticker": "005930",
-          "priorClose": 260000,
-          "priorVolume": 21793395,
-          "volumeRatio": 0.85,
-          "foreignNetBuy": -2293,
-          "expectedOpenPrice": 260600,
-          "expectedOpenChangePct": 0.23,
+          "priorClose": 261000,
+          "priorVolume": 16217784,
+          "volumeRatio": 0.68,
+          "foreignNetBuy": -707536,
+          "expectedOpenPrice": 262100,
+          "expectedOpenChangePct": 0.44,
           "expectedOpenRange": {
-            "low": 248600,
-            "high": 271400
+            "low": 250700,
+            "high": 272700
           },
           "expectedClosePrice": null,
           "expectedPrice": null,
@@ -373,7 +373,7 @@
           "predictedChangePct": null,
           "expectedCloseRange": null,
           "expectedIntradayChangePct": null,
-          "upProbability": 56,
+          "upProbability": 57,
           "direction": "상승 우세",
           "evaluation": null,
           "calibration": {
@@ -385,15 +385,15 @@
         "hynix": {
           "name": "SK하이닉스",
           "ticker": "000660",
-          "priorClose": 1674000,
-          "priorVolume": 5032216,
-          "volumeRatio": 1.08,
-          "foreignNetBuy": -211935,
-          "expectedOpenPrice": 1690900,
-          "expectedOpenChangePct": 1.01,
+          "priorClose": 1693000,
+          "priorVolume": 2898456,
+          "volumeRatio": 0.67,
+          "foreignNetBuy": 91835,
+          "expectedOpenPrice": 1703200,
+          "expectedOpenChangePct": 0.6,
           "expectedOpenRange": {
-            "low": 1616200,
-            "high": 1779500
+            "low": 1627500,
+            "high": 1792400
           },
           "expectedClosePrice": null,
           "expectedPrice": null,
@@ -401,7 +401,7 @@
           "predictedChangePct": null,
           "expectedCloseRange": null,
           "expectedIntradayChangePct": null,
-          "upProbability": 62,
+          "upProbability": 58,
           "direction": "상승 우세",
           "evaluation": null,
           "calibration": {
@@ -414,53 +414,53 @@
       "markets": {
         "kospiNight": {
           "label": "KOSPI200 야간선물",
-          "close": 1061.2,
-          "changePct": -0.62
+          "close": 1054.7,
+          "changePct": -2.18
         },
         "nasdaq": {
           "label": "NASDAQ Composite",
-          "close": 26402.42,
-          "changePct": -0.52
+          "close": 26370.89,
+          "changePct": -0.12
         },
         "ewy": {
           "label": "미국 상장 한국 ETF (EWY)",
-          "close": 180.2,
-          "changePct": -1.07
+          "close": 180.86,
+          "changePct": 0.37
         },
         "soxx": {
           "label": "반도체 ETF (SOXX)",
-          "close": 508.62,
-          "changePct": -3.2
+          "close": 511.04,
+          "changePct": 0.48
         },
         "micron": {
           "label": "Micron",
-          "close": 932.86,
-          "changePct": -0.27
+          "close": 958.73,
+          "changePct": 2.77
         },
         "nvidia": {
           "label": "NVIDIA",
-          "close": 217.55,
-          "changePct": -4.57
+          "close": 220.78,
+          "changePct": 1.48
         },
         "sandisk": {
           "label": "SanDisk",
-          "close": 1484.98,
-          "changePct": 0
+          "close": 1566.7,
+          "changePct": 5.5
         },
         "wti": {
           "label": "WTI",
-          "close": 86.42,
-          "changePct": 3.62
+          "close": 88.05,
+          "changePct": 2.67
         },
         "brent": {
           "label": "Brent",
-          "close": 88.82,
-          "changePct": -0.55
+          "close": 92.34,
+          "changePct": 2.04
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1367.88,
-          "changePct": -0.91
+          "close": 1373.29,
+          "changePct": -0.28
         }
       }
     }
@@ -675,12 +675,12 @@
     "preliminaryOpenDirectionAccuracy": 100,
     "preliminaryMeanOpenPriceErrorPct": 2.77,
     "historicalCalibration": {
-      "averageOpenMae": 2.3,
-      "averageCloseMae": 4.23,
+      "averageOpenMae": 2.45,
+      "averageCloseMae": 4.22,
       "stocks": {
         "hyundai": {
           "open": {
-            "mae": 1.78,
+            "mae": 1.77,
             "directionalAccuracy": 73,
             "nightOverlay": {
               "accepted": false,
@@ -688,8 +688,8 @@
             }
           },
           "close": {
-            "mae": 3.25,
-            "directionalAccuracy": 56,
+            "mae": 3.26,
+            "directionalAccuracy": 55,
             "nightOverlay": {
               "accepted": false,
               "holdoutRows": 90
@@ -698,7 +698,7 @@
         },
         "samsung": {
           "open": {
-            "mae": 2.34,
+            "mae": 2.39,
             "directionalAccuracy": 73,
             "nightOverlay": {
               "accepted": true,
@@ -706,8 +706,8 @@
             }
           },
           "close": {
-            "mae": 4.27,
-            "directionalAccuracy": 65,
+            "mae": 4.26,
+            "directionalAccuracy": 64,
             "nightOverlay": {
               "accepted": false,
               "holdoutRows": 90
@@ -716,15 +716,15 @@
         },
         "hynix": {
           "open": {
-            "mae": 2.79,
-            "directionalAccuracy": 70,
+            "mae": 3.18,
+            "directionalAccuracy": 69,
             "nightOverlay": {
-              "accepted": true,
+              "accepted": false,
               "holdoutRows": 90
             }
           },
           "close": {
-            "mae": 5.16,
+            "mae": 5.13,
             "directionalAccuracy": 61,
             "nightOverlay": {
               "accepted": false,
@@ -735,20 +735,20 @@
       }
     },
     "historicalPreliminaryCalibration": {
-      "averageOpenMae": 2.58,
+      "averageOpenMae": 2.57,
       "averageCloseMae": null,
       "stocks": {
         "hyundai": {
           "open": {
-            "mae": 2.02,
-            "directionalAccuracy": 57,
+            "mae": 1.98,
+            "directionalAccuracy": 60,
             "nightOverlay": null
           },
           "close": null
         },
         "samsung": {
           "open": {
-            "mae": 2.57,
+            "mae": 2.58,
             "directionalAccuracy": 55,
             "nightOverlay": null
           },
@@ -757,7 +757,7 @@
         "hynix": {
           "open": {
             "mae": 3.14,
-            "directionalAccuracy": 53,
+            "directionalAccuracy": 54,
             "nightOverlay": null
           },
           "close": null

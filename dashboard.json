@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T10:22:50.361Z",
-  "freshUntil": "2026-09-02T20:30:00+09:00",
-  "phase": "preliminary",
+  "generatedAt": "2026-09-02T11:00:03.277Z",
+  "freshUntil": "2026-09-03T07:30:00+09:00",
+  "phase": "evaluate",
   "predictionDate": "2026-09-02",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "f6af92f54d568c3d789ef221aaf813579c4a6a1f",
+  "sourceCommit": "5b2a2345cb3d12e4f783853cef4655333593bf16",
   "dashboard": {
     "predictionDate": "2026-09-02",
     "createdAt": "2026-09-01T22:00:03.921Z",
@@ -13,7 +13,12 @@
     "performanceEligible": true,
     "recovery": null,
     "sourceStatus": "complete",
-    "evaluation": null,
+    "evaluation": {
+      "completedAt": "2026-09-02T11:00:01.493Z",
+      "eligible": true,
+      "preliminaryEligible": false,
+      "note": null
+    },
     "predictions": {
       "hyundai": {
         "name": "현대차",
@@ -39,7 +44,14 @@
         "expectedIntradayChangePct": 0.04,
         "upProbability": 36,
         "direction": "하락 우세",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 389000,
+          "actualClosePrice": 378000,
+          "openPriceErrorPct": 2.13,
+          "closePriceErrorPct": 5.16,
+          "eligible": true,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -70,7 +82,14 @@
         "expectedIntradayChangePct": 3.48,
         "upProbability": 41,
         "direction": "하락 우세",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 252000,
+          "actualClosePrice": 250500,
+          "openPriceErrorPct": 1.11,
+          "closePriceErrorPct": 2.91,
+          "eligible": true,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": true,
@@ -101,7 +120,14 @@
         "expectedIntradayChangePct": 0.53,
         "upProbability": 41,
         "direction": "하락 우세",
-        "evaluation": null,
+        "evaluation": {
+          "actualOpenPrice": 1630000,
+          "actualClosePrice": 1613000,
+          "openPriceErrorPct": 1.91,
+          "closePriceErrorPct": 3.53,
+          "eligible": true,
+          "preliminaryEligible": false
+        },
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -168,7 +194,12 @@
       "performanceEligible": true,
       "recovery": null,
       "sourceStatus": "complete",
-      "evaluation": null,
+      "evaluation": {
+        "completedAt": "2026-09-02T11:00:01.493Z",
+        "eligible": true,
+        "preliminaryEligible": false,
+        "note": null
+      },
       "predictions": {
         "hyundai": {
           "name": "현대차",
@@ -194,7 +225,14 @@
           "expectedIntradayChangePct": 0.04,
           "upProbability": 36,
           "direction": "하락 우세",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 389000,
+            "actualClosePrice": 378000,
+            "openPriceErrorPct": 2.13,
+            "closePriceErrorPct": 5.16,
+            "eligible": true,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -225,7 +263,14 @@
           "expectedIntradayChangePct": 3.48,
           "upProbability": 41,
           "direction": "하락 우세",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 252000,
+            "actualClosePrice": 250500,
+            "openPriceErrorPct": 1.11,
+            "closePriceErrorPct": 2.91,
+            "eligible": true,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": true,
@@ -256,7 +301,14 @@
           "expectedIntradayChangePct": 0.53,
           "upProbability": 41,
           "direction": "하락 우세",
-          "evaluation": null,
+          "evaluation": {
+            "actualOpenPrice": 1630000,
+            "actualClosePrice": 1613000,
+            "openPriceErrorPct": 1.91,
+            "closePriceErrorPct": 3.53,
+            "eligible": true,
+            "preliminaryEligible": false
+          },
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -664,16 +716,16 @@
     }
   ],
   "analytics": {
-    "sampleSize": 18,
-    "forecastDays": 6,
-    "openDirectionAccuracy": 67,
-    "closeDirectionAccuracy": 71,
-    "meanOpenPriceErrorPct": 1.93,
-    "meanClosePriceErrorPct": 3,
-    "preliminarySampleSize": 6,
-    "preliminaryForecastDays": 2,
-    "preliminaryOpenDirectionAccuracy": 67,
-    "preliminaryMeanOpenPriceErrorPct": 1.91,
+    "sampleSize": 21,
+    "forecastDays": 7,
+    "openDirectionAccuracy": 71,
+    "closeDirectionAccuracy": 75,
+    "meanOpenPriceErrorPct": 1.9,
+    "meanClosePriceErrorPct": 3.12,
+    "preliminarySampleSize": 9,
+    "preliminaryForecastDays": 3,
+    "preliminaryOpenDirectionAccuracy": 44,
+    "preliminaryMeanOpenPriceErrorPct": 2.56,
     "historicalCalibration": {
       "averageOpenMae": 2.25,
       "averageCloseMae": 4.17,
@@ -766,6 +818,36 @@
     },
     "latestResults": [
       {
+        "date": "2026-09-02",
+        "name": "SK하이닉스",
+        "expectedOpenPrice": 1661200,
+        "actualOpenPrice": 1630000,
+        "expectedClosePrice": 1670000,
+        "actualClosePrice": 1613000,
+        "closePriceErrorPct": 3.53,
+        "closeDirectionCorrect": true
+      },
+      {
+        "date": "2026-09-02",
+        "name": "삼성전자",
+        "expectedOpenPrice": 249200,
+        "actualOpenPrice": 252000,
+        "expectedClosePrice": 257800,
+        "actualClosePrice": 250500,
+        "closePriceErrorPct": 2.91,
+        "closeDirectionCorrect": true
+      },
+      {
+        "date": "2026-09-02",
+        "name": "현대차",
+        "expectedOpenPrice": 397300,
+        "actualOpenPrice": 389000,
+        "expectedClosePrice": 397500,
+        "actualClosePrice": 378000,
+        "closePriceErrorPct": 5.16,
+        "closeDirectionCorrect": true
+      },
+      {
         "date": "2026-09-01",
         "name": "SK하이닉스",
         "expectedOpenPrice": 1675600,
@@ -823,36 +905,6 @@
         "expectedClosePrice": 423600,
         "actualClosePrice": 408000,
         "closePriceErrorPct": 3.82,
-        "closeDirectionCorrect": false
-      },
-      {
-        "date": "2026-08-25",
-        "name": "SK하이닉스",
-        "expectedOpenPrice": 1642100,
-        "actualOpenPrice": 1598000,
-        "expectedClosePrice": 1650800,
-        "actualClosePrice": 1678000,
-        "closePriceErrorPct": 1.62,
-        "closeDirectionCorrect": false
-      },
-      {
-        "date": "2026-08-25",
-        "name": "삼성전자",
-        "expectedOpenPrice": 250600,
-        "actualOpenPrice": 249000,
-        "expectedClosePrice": 256800,
-        "actualClosePrice": 257000,
-        "closePriceErrorPct": 0.08,
-        "closeDirectionCorrect": null
-      },
-      {
-        "date": "2026-08-25",
-        "name": "현대차",
-        "expectedOpenPrice": 410600,
-        "actualOpenPrice": 422000,
-        "expectedClosePrice": 410900,
-        "actualClosePrice": 421000,
-        "closePriceErrorPct": 2.4,
         "closeDirectionCorrect": false
       }
     ]

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T22:00:29.038Z",
+  "generatedAt": "2026-09-06T22:17:48.995Z",
   "freshUntil": "2026-09-07T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-09-07",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "a1ac75490e850e67e5bfc8357d7851785fe228a6",
+  "sourceCommit": "e39c6590594c4047f8b86af583b1cdd872cd6a9f",
   "dashboard": {
     "predictionDate": "2026-09-07",
-    "createdAt": "2026-09-06T22:00:27.683Z",
+    "createdAt": "2026-09-06T22:17:47.418Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -148,22 +148,22 @@
       "wti": {
         "label": "WTI",
         "close": 91.48,
-        "changePct": 0.2
+        "changePct": 0
       },
       "brent": {
         "label": "Brent",
         "close": 96.28,
-        "changePct": 0.8
+        "changePct": 0
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1345.13,
+        "close": 1345.12,
         "changePct": -0.76
       }
     },
     "finalForecast": {
       "predictionDate": "2026-09-07",
-      "createdAt": "2026-09-06T22:00:27.683Z",
+      "createdAt": "2026-09-06T22:17:47.418Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -303,16 +303,16 @@
         "wti": {
           "label": "WTI",
           "close": 91.48,
-          "changePct": 0.2
+          "changePct": 0
         },
         "brent": {
           "label": "Brent",
           "close": 96.28,
-          "changePct": 0.8
+          "changePct": 0
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1345.13,
+          "close": 1345.12,
           "changePct": -0.76
         }
       }
@@ -1285,7 +1285,7 @@
       "scheduledDateKst": "2026-09-07",
       "scheduledTimeKst": "07:00",
       "status": "missed",
-      "detectedAt": "2026-09-06T22:00:27.771Z",
+      "detectedAt": "2026-09-06T22:17:47.503Z",
       "reason": "Forecast phase morning failed with status 1."
     }
   ],

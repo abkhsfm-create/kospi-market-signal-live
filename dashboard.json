@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T23:40:34.242Z",
+  "generatedAt": "2026-09-09T00:03:01.379Z",
   "freshUntil": "2026-09-09T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-09-09",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "707a266afe90fa608b2c25e2824c240c329d8b8c",
+  "sourceCommit": "85f96b0da76ab29ec7d8adf445764f0438a388d8",
   "dashboard": {
     "predictionDate": "2026-09-09",
-    "createdAt": "2026-09-08T23:40:32.790Z",
+    "createdAt": "2026-09-09T00:02:59.500Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -22,28 +22,28 @@
         "priorVolume": 482373,
         "volumeRatio": 0.82,
         "foreignNetBuy": -126274,
-        "expectedOpenPrice": 388300,
-        "expectedOpenChangePct": 0.85,
+        "expectedOpenPrice": 389300,
+        "expectedOpenChangePct": 1.11,
         "expectedOpenRange": {
-          "low": 378200,
-          "high": 399700
+          "low": 379200,
+          "high": 400700
         },
-        "expectedClosePrice": 384300,
-        "expectedPrice": 384300,
-        "expectedCloseChangePct": -0.18,
-        "predictedChangePct": -0.18,
+        "expectedClosePrice": 385000,
+        "expectedPrice": 385000,
+        "expectedCloseChangePct": 0.01,
+        "predictedChangePct": 0.01,
         "expectedCloseRange": {
-          "low": 367900,
-          "high": 405800
+          "low": 368600,
+          "high": 406600
         },
-        "expectedIntradayChangePct": -1.02,
-        "upProbability": 45,
-        "direction": "하락 우세",
+        "expectedIntradayChangePct": -1.09,
+        "upProbability": 49,
+        "direction": "혼조권",
         "evaluation": null,
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
-          "note": null
+          "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
         }
       },
       "samsung": {
@@ -53,28 +53,28 @@
         "priorVolume": 22716517,
         "volumeRatio": 1.07,
         "foreignNetBuy": 3332528,
-        "expectedOpenPrice": 272200,
-        "expectedOpenChangePct": 1.01,
+        "expectedOpenPrice": 276700,
+        "expectedOpenChangePct": 2.66,
         "expectedOpenRange": {
-          "low": 263700,
-          "high": 282100
+          "low": 268100,
+          "high": 286500
         },
-        "expectedClosePrice": 271700,
-        "expectedPrice": 271700,
-        "expectedCloseChangePct": 0.81,
-        "predictedChangePct": 0.81,
+        "expectedClosePrice": 276100,
+        "expectedPrice": 276100,
+        "expectedCloseChangePct": 2.46,
+        "predictedChangePct": 2.46,
         "expectedCloseRange": {
-          "low": 256900,
-          "high": 285200
+          "low": 261400,
+          "high": 289700
         },
-        "expectedIntradayChangePct": -0.2,
-        "upProbability": 65,
+        "expectedIntradayChangePct": -0.19,
+        "upProbability": 77,
         "direction": "상승 우세",
         "evaluation": null,
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
-          "note": null
+          "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
         }
       },
       "hynix": {
@@ -84,28 +84,28 @@
         "priorVolume": 4164618,
         "volumeRatio": 1.1,
         "foreignNetBuy": 97545,
-        "expectedOpenPrice": 1798900,
-        "expectedOpenChangePct": 0.33,
+        "expectedOpenPrice": 1851600,
+        "expectedOpenChangePct": 3.27,
         "expectedOpenRange": {
-          "low": 1738000,
-          "high": 1875500
+          "low": 1790500,
+          "high": 1928000
         },
-        "expectedClosePrice": 1778700,
-        "expectedPrice": 1778700,
-        "expectedCloseChangePct": -0.8,
-        "predictedChangePct": -0.8,
+        "expectedClosePrice": 1832300,
+        "expectedPrice": 1832300,
+        "expectedCloseChangePct": 2.19,
+        "predictedChangePct": 2.19,
         "expectedCloseRange": {
-          "low": 1666400,
-          "high": 1900900
+          "low": 1720000,
+          "high": 1954400
         },
-        "expectedIntradayChangePct": -1.13,
-        "upProbability": 46,
-        "direction": "혼조권",
+        "expectedIntradayChangePct": -1.05,
+        "upProbability": 74,
+        "direction": "상승 우세",
         "evaluation": null,
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
-          "note": null
+          "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
         }
       }
     },
@@ -122,48 +122,48 @@
       },
       "ewy": {
         "label": "미국 상장 한국 ETF (EWY)",
-        "close": 189.91,
-        "changePct": 0.55
+        "close": 188.87,
+        "changePct": 4.6
       },
       "soxx": {
         "label": "반도체 ETF (SOXX)",
-        "close": 528.4,
-        "changePct": 1.64
+        "close": 519.86,
+        "changePct": 3.52
       },
       "micron": {
         "label": "Micron",
-        "close": 1000.26,
-        "changePct": -1.61
+        "close": 1016.59,
+        "changePct": 6.1
       },
       "nvidia": {
         "label": "NVIDIA",
-        "close": 225.73,
-        "changePct": -2.01
+        "close": 230.36,
+        "changePct": 0.84
       },
       "sandisk": {
         "label": "SanDisk",
-        "close": 1737.99,
-        "changePct": -0.12
+        "close": 1740,
+        "changePct": 11.9
       },
       "wti": {
         "label": "WTI",
-        "close": 94.32,
-        "changePct": 3.1
+        "close": 94.66,
+        "changePct": 3.48
       },
       "brent": {
         "label": "Brent",
-        "close": 99.45,
-        "changePct": 3.29
+        "close": 99.59,
+        "changePct": 3.44
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1340.23,
-        "changePct": -0.25
+        "close": 1336.48,
+        "changePct": -0.53
       }
     },
     "finalForecast": {
       "predictionDate": "2026-09-09",
-      "createdAt": "2026-09-08T23:40:32.790Z",
+      "createdAt": "2026-09-09T00:02:59.500Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -177,28 +177,28 @@
           "priorVolume": 482373,
           "volumeRatio": 0.82,
           "foreignNetBuy": -126274,
-          "expectedOpenPrice": 388300,
-          "expectedOpenChangePct": 0.85,
+          "expectedOpenPrice": 389300,
+          "expectedOpenChangePct": 1.11,
           "expectedOpenRange": {
-            "low": 378200,
-            "high": 399700
+            "low": 379200,
+            "high": 400700
           },
-          "expectedClosePrice": 384300,
-          "expectedPrice": 384300,
-          "expectedCloseChangePct": -0.18,
-          "predictedChangePct": -0.18,
+          "expectedClosePrice": 385000,
+          "expectedPrice": 385000,
+          "expectedCloseChangePct": 0.01,
+          "predictedChangePct": 0.01,
           "expectedCloseRange": {
-            "low": 367900,
-            "high": 405800
+            "low": 368600,
+            "high": 406600
           },
-          "expectedIntradayChangePct": -1.02,
-          "upProbability": 45,
-          "direction": "하락 우세",
+          "expectedIntradayChangePct": -1.09,
+          "upProbability": 49,
+          "direction": "혼조권",
           "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
-            "note": null
+            "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
           }
         },
         "samsung": {
@@ -208,28 +208,28 @@
           "priorVolume": 22716517,
           "volumeRatio": 1.07,
           "foreignNetBuy": 3332528,
-          "expectedOpenPrice": 272200,
-          "expectedOpenChangePct": 1.01,
+          "expectedOpenPrice": 276700,
+          "expectedOpenChangePct": 2.66,
           "expectedOpenRange": {
-            "low": 263700,
-            "high": 282100
+            "low": 268100,
+            "high": 286500
           },
-          "expectedClosePrice": 271700,
-          "expectedPrice": 271700,
-          "expectedCloseChangePct": 0.81,
-          "predictedChangePct": 0.81,
+          "expectedClosePrice": 276100,
+          "expectedPrice": 276100,
+          "expectedCloseChangePct": 2.46,
+          "predictedChangePct": 2.46,
           "expectedCloseRange": {
-            "low": 256900,
-            "high": 285200
+            "low": 261400,
+            "high": 289700
           },
-          "expectedIntradayChangePct": -0.2,
-          "upProbability": 65,
+          "expectedIntradayChangePct": -0.19,
+          "upProbability": 77,
           "direction": "상승 우세",
           "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
-            "note": null
+            "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
           }
         },
         "hynix": {
@@ -239,28 +239,28 @@
           "priorVolume": 4164618,
           "volumeRatio": 1.1,
           "foreignNetBuy": 97545,
-          "expectedOpenPrice": 1798900,
-          "expectedOpenChangePct": 0.33,
+          "expectedOpenPrice": 1851600,
+          "expectedOpenChangePct": 3.27,
           "expectedOpenRange": {
-            "low": 1738000,
-            "high": 1875500
+            "low": 1790500,
+            "high": 1928000
           },
-          "expectedClosePrice": 1778700,
-          "expectedPrice": 1778700,
-          "expectedCloseChangePct": -0.8,
-          "predictedChangePct": -0.8,
+          "expectedClosePrice": 1832300,
+          "expectedPrice": 1832300,
+          "expectedCloseChangePct": 2.19,
+          "predictedChangePct": 2.19,
           "expectedCloseRange": {
-            "low": 1666400,
-            "high": 1900900
+            "low": 1720000,
+            "high": 1954400
           },
-          "expectedIntradayChangePct": -1.13,
-          "upProbability": 46,
-          "direction": "혼조권",
+          "expectedIntradayChangePct": -1.05,
+          "upProbability": 74,
+          "direction": "상승 우세",
           "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
-            "note": null
+            "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
           }
         }
       },
@@ -277,43 +277,43 @@
         },
         "ewy": {
           "label": "미국 상장 한국 ETF (EWY)",
-          "close": 189.91,
-          "changePct": 0.55
+          "close": 188.87,
+          "changePct": 4.6
         },
         "soxx": {
           "label": "반도체 ETF (SOXX)",
-          "close": 528.4,
-          "changePct": 1.64
+          "close": 519.86,
+          "changePct": 3.52
         },
         "micron": {
           "label": "Micron",
-          "close": 1000.26,
-          "changePct": -1.61
+          "close": 1016.59,
+          "changePct": 6.1
         },
         "nvidia": {
           "label": "NVIDIA",
-          "close": 225.73,
-          "changePct": -2.01
+          "close": 230.36,
+          "changePct": 0.84
         },
         "sandisk": {
           "label": "SanDisk",
-          "close": 1737.99,
-          "changePct": -0.12
+          "close": 1740,
+          "changePct": 11.9
         },
         "wti": {
           "label": "WTI",
-          "close": 94.32,
-          "changePct": 3.1
+          "close": 94.66,
+          "changePct": 3.48
         },
         "brent": {
           "label": "Brent",
-          "close": 99.45,
-          "changePct": 3.29
+          "close": 99.59,
+          "changePct": 3.44
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1340.23,
-          "changePct": -0.25
+          "close": 1336.48,
+          "changePct": -0.53
         }
       }
     },
@@ -470,13 +470,13 @@
       "predictionDate": "2026-09-09",
       "predictions": {
         "hyundai": {
-          "upProbability": 45
+          "upProbability": 49
         },
         "samsung": {
-          "upProbability": 65
+          "upProbability": 77
         },
         "hynix": {
-          "upProbability": 46
+          "upProbability": 74
         }
       }
     },

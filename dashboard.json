@@ -1,57 +1,45 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T14:58:10.465Z",
-  "freshUntil": "2026-09-14T07:30:00+09:00",
-  "phase": "evaluate",
-  "predictionDate": "2026-09-11",
+  "generatedAt": "2026-09-13T23:31:30.460Z",
+  "freshUntil": "2026-09-14T19:30:00+09:00",
+  "phase": "morning",
+  "predictionDate": "2026-09-14",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "14eab0c630994e8c8bd9fdaefd00310aecdc5b40",
+  "sourceCommit": "9d2978f3a1acdbf94d32579cc8203c935393d1ca",
   "dashboard": {
-    "predictionDate": "2026-09-11",
-    "createdAt": "2026-09-11T00:00:10.611Z",
+    "predictionDate": "2026-09-14",
+    "createdAt": "2026-09-13T23:31:28.904Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
     "sourceStatus": "partial",
-    "evaluation": {
-      "completedAt": "2026-09-11T14:39:45.616Z",
-      "eligible": false,
-      "preliminaryEligible": false,
-      "note": "예정된 시각에 고정되지 않은 예측은 성과 표본에서 제외됩니다."
-    },
+    "evaluation": null,
     "predictions": {
       "hyundai": {
         "name": "현대차",
         "ticker": "005380",
-        "priorClose": 389000,
-        "priorVolume": 600281,
-        "volumeRatio": 1.02,
+        "priorClose": 382500,
+        "priorVolume": 524899,
+        "volumeRatio": 0.88,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 386300,
-        "expectedOpenChangePct": -0.69,
+        "expectedOpenPrice": 388100,
+        "expectedOpenChangePct": 1.47,
         "expectedOpenRange": {
-          "low": 376200,
-          "high": 397900
+          "low": 378200,
+          "high": 399600
         },
-        "expectedClosePrice": 386200,
-        "expectedPrice": 386200,
-        "expectedCloseChangePct": -0.71,
-        "predictedChangePct": -0.71,
+        "expectedClosePrice": 386600,
+        "expectedPrice": 386600,
+        "expectedCloseChangePct": 1.06,
+        "predictedChangePct": 1.06,
         "expectedCloseRange": {
-          "low": 368400,
-          "high": 408700
+          "low": 369000,
+          "high": 408300
         },
-        "expectedIntradayChangePct": -0.02,
-        "upProbability": 37,
-        "direction": "하락 우세",
-        "evaluation": {
-          "actualOpenPrice": 381000,
-          "actualClosePrice": 382500,
-          "openPriceErrorPct": 1.39,
-          "closePriceErrorPct": 0.97,
-          "eligible": false,
-          "preliminaryEligible": false
-        },
+        "expectedIntradayChangePct": -0.4,
+        "upProbability": 66,
+        "direction": "상승 우세",
+        "evaluation": null,
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -61,35 +49,28 @@
       "samsung": {
         "name": "삼성전자",
         "ticker": "005930",
-        "priorClose": 269000,
-        "priorVolume": 22517075,
-        "volumeRatio": 1.06,
+        "priorClose": 259500,
+        "priorVolume": 13939111,
+        "volumeRatio": 0.66,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 265200,
-        "expectedOpenChangePct": -1.4,
+        "expectedOpenPrice": 264700,
+        "expectedOpenChangePct": 2.01,
         "expectedOpenRange": {
-          "low": 256500,
-          "high": 274800
+          "low": 256300,
+          "high": 273900
         },
-        "expectedClosePrice": 264900,
-        "expectedPrice": 264900,
-        "expectedCloseChangePct": -1.53,
-        "predictedChangePct": -1.53,
+        "expectedClosePrice": 264400,
+        "expectedPrice": 264400,
+        "expectedCloseChangePct": 1.89,
+        "predictedChangePct": 1.89,
         "expectedCloseRange": {
           "low": 250500,
-          "high": 278100
+          "high": 277200
         },
-        "expectedIntradayChangePct": -0.13,
-        "upProbability": 37,
-        "direction": "하락 우세",
-        "evaluation": {
-          "actualOpenPrice": 258000,
-          "actualClosePrice": 259500,
-          "openPriceErrorPct": 2.79,
-          "closePriceErrorPct": 2.08,
-          "eligible": false,
-          "preliminaryEligible": false
-        },
+        "expectedIntradayChangePct": -0.12,
+        "upProbability": 74,
+        "direction": "상승 우세",
+        "evaluation": null,
         "calibration": {
           "foreignFlowSelected": false,
           "nightOverlayApplied": false,
@@ -99,37 +80,30 @@
       "hynix": {
         "name": "SK하이닉스",
         "ticker": "000660",
-        "priorClose": 1853000,
-        "priorVolume": 4483585,
-        "volumeRatio": 1.17,
+        "priorClose": 1812000,
+        "priorVolume": 2625165,
+        "volumeRatio": 0.69,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 1812200,
-        "expectedOpenChangePct": -2.2,
+        "expectedOpenPrice": 1844400,
+        "expectedOpenChangePct": 1.79,
         "expectedOpenRange": {
-          "low": 1751100,
-          "high": 1894300
+          "low": 1782800,
+          "high": 1921300
         },
-        "expectedClosePrice": 1826100,
-        "expectedPrice": 1826100,
-        "expectedCloseChangePct": -1.45,
-        "predictedChangePct": -1.45,
+        "expectedClosePrice": 1826700,
+        "expectedPrice": 1826700,
+        "expectedCloseChangePct": 0.81,
+        "predictedChangePct": 0.81,
         "expectedCloseRange": {
-          "low": 1708500,
-          "high": 1953200
+          "low": 1710900,
+          "high": 1951000
         },
-        "expectedIntradayChangePct": 0.77,
-        "upProbability": 38,
-        "direction": "하락 우세",
-        "evaluation": {
-          "actualOpenPrice": 1773000,
-          "actualClosePrice": 1812000,
-          "openPriceErrorPct": 2.21,
-          "closePriceErrorPct": 0.78,
-          "eligible": false,
-          "preliminaryEligible": false
-        },
+        "expectedIntradayChangePct": -0.96,
+        "upProbability": 63,
+        "direction": "상승 우세",
+        "evaluation": null,
         "calibration": {
-          "foreignFlowSelected": true,
+          "foreignFlowSelected": false,
           "nightOverlayApplied": false,
           "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
         }
@@ -143,96 +117,84 @@
       },
       "nasdaq": {
         "label": "NASDAQ Composite",
-        "close": 26081.72,
-        "changePct": -0.65
+        "close": 26333.04,
+        "changePct": 0.96
       },
       "ewy": {
         "label": "미국 상장 한국 ETF (EWY)",
-        "close": 182.78,
-        "changePct": -4.19
+        "close": 188.72,
+        "changePct": 3.25
       },
       "soxx": {
         "label": "반도체 ETF (SOXX)",
-        "close": 517.43,
-        "changePct": -2.74
+        "close": 527.07,
+        "changePct": 1.86
       },
       "micron": {
         "label": "Micron",
-        "close": 977.41,
-        "changePct": -4.9
+        "close": 975.26,
+        "changePct": -0.22
       },
       "nvidia": {
         "label": "NVIDIA",
-        "close": 218.36,
-        "changePct": -2.37
+        "close": 218.29,
+        "changePct": -0.03
       },
       "sandisk": {
         "label": "SanDisk",
-        "close": 1692.59,
-        "changePct": -4.06
+        "close": 1633.35,
+        "changePct": -3.5
       },
       "wti": {
         "label": "WTI",
-        "close": 104.17,
-        "changePct": 8.45
+        "close": 102.39,
+        "changePct": 2.34
       },
       "brent": {
         "label": "Brent",
-        "close": 109.6,
-        "changePct": 8.29
+        "close": 107.57,
+        "changePct": 2.83
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1349.07,
-        "changePct": 0.74
+        "close": 1343.4,
+        "changePct": -0.35
       }
     },
     "finalForecast": {
-      "predictionDate": "2026-09-11",
-      "createdAt": "2026-09-11T00:00:10.611Z",
+      "predictionDate": "2026-09-14",
+      "createdAt": "2026-09-13T23:31:28.904Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
       "sourceStatus": "partial",
-      "evaluation": {
-        "completedAt": "2026-09-11T14:39:45.616Z",
-        "eligible": false,
-        "preliminaryEligible": false,
-        "note": "예정된 시각에 고정되지 않은 예측은 성과 표본에서 제외됩니다."
-      },
+      "evaluation": null,
       "predictions": {
         "hyundai": {
           "name": "현대차",
           "ticker": "005380",
-          "priorClose": 389000,
-          "priorVolume": 600281,
-          "volumeRatio": 1.02,
+          "priorClose": 382500,
+          "priorVolume": 524899,
+          "volumeRatio": 0.88,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 386300,
-          "expectedOpenChangePct": -0.69,
+          "expectedOpenPrice": 388100,
+          "expectedOpenChangePct": 1.47,
           "expectedOpenRange": {
-            "low": 376200,
-            "high": 397900
+            "low": 378200,
+            "high": 399600
           },
-          "expectedClosePrice": 386200,
-          "expectedPrice": 386200,
-          "expectedCloseChangePct": -0.71,
-          "predictedChangePct": -0.71,
+          "expectedClosePrice": 386600,
+          "expectedPrice": 386600,
+          "expectedCloseChangePct": 1.06,
+          "predictedChangePct": 1.06,
           "expectedCloseRange": {
-            "low": 368400,
-            "high": 408700
+            "low": 369000,
+            "high": 408300
           },
-          "expectedIntradayChangePct": -0.02,
-          "upProbability": 37,
-          "direction": "하락 우세",
-          "evaluation": {
-            "actualOpenPrice": 381000,
-            "actualClosePrice": 382500,
-            "openPriceErrorPct": 1.39,
-            "closePriceErrorPct": 0.97,
-            "eligible": false,
-            "preliminaryEligible": false
-          },
+          "expectedIntradayChangePct": -0.4,
+          "upProbability": 66,
+          "direction": "상승 우세",
+          "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -242,35 +204,28 @@
         "samsung": {
           "name": "삼성전자",
           "ticker": "005930",
-          "priorClose": 269000,
-          "priorVolume": 22517075,
-          "volumeRatio": 1.06,
+          "priorClose": 259500,
+          "priorVolume": 13939111,
+          "volumeRatio": 0.66,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 265200,
-          "expectedOpenChangePct": -1.4,
+          "expectedOpenPrice": 264700,
+          "expectedOpenChangePct": 2.01,
           "expectedOpenRange": {
-            "low": 256500,
-            "high": 274800
+            "low": 256300,
+            "high": 273900
           },
-          "expectedClosePrice": 264900,
-          "expectedPrice": 264900,
-          "expectedCloseChangePct": -1.53,
-          "predictedChangePct": -1.53,
+          "expectedClosePrice": 264400,
+          "expectedPrice": 264400,
+          "expectedCloseChangePct": 1.89,
+          "predictedChangePct": 1.89,
           "expectedCloseRange": {
             "low": 250500,
-            "high": 278100
+            "high": 277200
           },
-          "expectedIntradayChangePct": -0.13,
-          "upProbability": 37,
-          "direction": "하락 우세",
-          "evaluation": {
-            "actualOpenPrice": 258000,
-            "actualClosePrice": 259500,
-            "openPriceErrorPct": 2.79,
-            "closePriceErrorPct": 2.08,
-            "eligible": false,
-            "preliminaryEligible": false
-          },
+          "expectedIntradayChangePct": -0.12,
+          "upProbability": 74,
+          "direction": "상승 우세",
+          "evaluation": null,
           "calibration": {
             "foreignFlowSelected": false,
             "nightOverlayApplied": false,
@@ -280,37 +235,30 @@
         "hynix": {
           "name": "SK하이닉스",
           "ticker": "000660",
-          "priorClose": 1853000,
-          "priorVolume": 4483585,
-          "volumeRatio": 1.17,
+          "priorClose": 1812000,
+          "priorVolume": 2625165,
+          "volumeRatio": 0.69,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 1812200,
-          "expectedOpenChangePct": -2.2,
+          "expectedOpenPrice": 1844400,
+          "expectedOpenChangePct": 1.79,
           "expectedOpenRange": {
-            "low": 1751100,
-            "high": 1894300
+            "low": 1782800,
+            "high": 1921300
           },
-          "expectedClosePrice": 1826100,
-          "expectedPrice": 1826100,
-          "expectedCloseChangePct": -1.45,
-          "predictedChangePct": -1.45,
+          "expectedClosePrice": 1826700,
+          "expectedPrice": 1826700,
+          "expectedCloseChangePct": 0.81,
+          "predictedChangePct": 0.81,
           "expectedCloseRange": {
-            "low": 1708500,
-            "high": 1953200
+            "low": 1710900,
+            "high": 1951000
           },
-          "expectedIntradayChangePct": 0.77,
-          "upProbability": 38,
-          "direction": "하락 우세",
-          "evaluation": {
-            "actualOpenPrice": 1773000,
-            "actualClosePrice": 1812000,
-            "openPriceErrorPct": 2.21,
-            "closePriceErrorPct": 0.78,
-            "eligible": false,
-            "preliminaryEligible": false
-          },
+          "expectedIntradayChangePct": -0.96,
+          "upProbability": 63,
+          "direction": "상승 우세",
+          "evaluation": null,
           "calibration": {
-            "foreignFlowSelected": true,
+            "foreignFlowSelected": false,
             "nightOverlayApplied": false,
             "note": "현재 장전 신호가 과거 검증 범위를 일부 벗어났습니다. 예상 범위를 함께 확인하세요."
           }
@@ -324,48 +272,48 @@
         },
         "nasdaq": {
           "label": "NASDAQ Composite",
-          "close": 26081.72,
-          "changePct": -0.65
+          "close": 26333.04,
+          "changePct": 0.96
         },
         "ewy": {
           "label": "미국 상장 한국 ETF (EWY)",
-          "close": 182.78,
-          "changePct": -4.19
+          "close": 188.72,
+          "changePct": 3.25
         },
         "soxx": {
           "label": "반도체 ETF (SOXX)",
-          "close": 517.43,
-          "changePct": -2.74
+          "close": 527.07,
+          "changePct": 1.86
         },
         "micron": {
           "label": "Micron",
-          "close": 977.41,
-          "changePct": -4.9
+          "close": 975.26,
+          "changePct": -0.22
         },
         "nvidia": {
           "label": "NVIDIA",
-          "close": 218.36,
-          "changePct": -2.37
+          "close": 218.29,
+          "changePct": -0.03
         },
         "sandisk": {
           "label": "SanDisk",
-          "close": 1692.59,
-          "changePct": -4.06
+          "close": 1633.35,
+          "changePct": -3.5
         },
         "wti": {
           "label": "WTI",
-          "close": 104.17,
-          "changePct": 8.45
+          "close": 102.39,
+          "changePct": 2.34
         },
         "brent": {
           "label": "Brent",
-          "close": 109.6,
-          "changePct": 8.29
+          "close": 107.57,
+          "changePct": 2.83
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1349.07,
-          "changePct": 0.74
+          "close": 1343.4,
+          "changePct": -0.35
         }
       }
     },
@@ -518,6 +466,20 @@
     }
   },
   "history": [
+    {
+      "predictionDate": "2026-09-14",
+      "predictions": {
+        "hyundai": {
+          "upProbability": 66
+        },
+        "samsung": {
+          "upProbability": 74
+        },
+        "hynix": {
+          "upProbability": 63
+        }
+      }
+    },
     {
       "predictionDate": "2026-09-11",
       "predictions": {
@@ -697,20 +659,6 @@
         },
         "hynix": {
           "upProbability": 43
-        }
-      }
-    },
-    {
-      "predictionDate": "2026-08-24",
-      "predictions": {
-        "hyundai": {
-          "upProbability": 49
-        },
-        "samsung": {
-          "upProbability": 49
-        },
-        "hynix": {
-          "upProbability": 47
         }
       }
     }
@@ -1469,6 +1417,16 @@
       "status": "missed",
       "detectedAt": "2026-09-11T14:39:45.617Z",
       "reason": "07시 적격 예측이 없어 성과 채점만 건너뛰었습니다. 비적격 복구 예측과 과거 미채점 실측은 점수표본에서 제외한 채 보존합니다."
+    },
+    {
+      "id": "2026-09-14:final",
+      "predictionDate": "2026-09-14",
+      "phase": "final",
+      "scheduledDateKst": "2026-09-14",
+      "scheduledTimeKst": "07:00",
+      "status": "missed",
+      "detectedAt": "2026-09-13T23:31:28.908Z",
+      "reason": "07시 예약 실행에서 필수 야간선물 입력이 완성되지 않아 성과 표본에서 제외했습니다."
     },
     {
       "id": "2026-09-14:preliminary",

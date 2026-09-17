@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T23:51:11.712Z",
+  "generatedAt": "2026-09-17T00:19:04.016Z",
   "freshUntil": "2026-09-17T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-09-17",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "8159dea745c4a88358fb5b28f00ce836f6d8abfc",
+  "sourceCommit": "5e88b72e8f281d7820f531dacbceab4b91faa7fd",
   "dashboard": {
     "predictionDate": "2026-09-17",
-    "createdAt": "2026-09-16T23:51:09.963Z",
+    "createdAt": "2026-09-17T00:19:02.362Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -22,11 +22,11 @@
         "priorVolume": 482107,
         "volumeRatio": 0.91,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 362200,
-        "expectedOpenChangePct": 0.06,
+        "expectedOpenPrice": 362900,
+        "expectedOpenChangePct": 0.24,
         "expectedOpenRange": {
-          "low": 352300,
-          "high": 373500
+          "low": 353000,
+          "high": 374100
         },
         "expectedClosePrice": 362200,
         "expectedPrice": 362200,
@@ -36,7 +36,7 @@
           "low": 344800,
           "high": 382200
         },
-        "expectedIntradayChangePct": -0.01,
+        "expectedIntradayChangePct": -0.19,
         "upProbability": 49,
         "direction": "혼조권",
         "evaluation": null,
@@ -53,21 +53,21 @@
         "priorVolume": 11757106,
         "volumeRatio": 0.62,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 253800,
-        "expectedOpenChangePct": 0.12,
+        "expectedOpenPrice": 254100,
+        "expectedOpenChangePct": 0.25,
         "expectedOpenRange": {
-          "low": 245300,
-          "high": 262800
+          "low": 245600,
+          "high": 263100
         },
-        "expectedClosePrice": 253100,
-        "expectedPrice": 253100,
-        "expectedCloseChangePct": -0.15,
-        "predictedChangePct": -0.15,
+        "expectedClosePrice": 253200,
+        "expectedPrice": 253200,
+        "expectedCloseChangePct": -0.11,
+        "predictedChangePct": -0.11,
         "expectedCloseRange": {
-          "low": 238400,
-          "high": 265700
+          "low": 238500,
+          "high": 265800
         },
-        "expectedIntradayChangePct": -0.27,
+        "expectedIntradayChangePct": -0.36,
         "upProbability": 54,
         "direction": "혼조권",
         "evaluation": null,
@@ -84,19 +84,19 @@
         "priorVolume": 2857754,
         "volumeRatio": 0.8,
         "foreignNetBuy": null,
-        "expectedOpenPrice": 1760400,
-        "expectedOpenChangePct": 0.08,
+        "expectedOpenPrice": 1761800,
+        "expectedOpenChangePct": 0.16,
         "expectedOpenRange": {
-          "low": 1699200,
-          "high": 1838300
+          "low": 1700600,
+          "high": 1839700
         },
-        "expectedClosePrice": 1753400,
-        "expectedPrice": 1753400,
-        "expectedCloseChangePct": -0.32,
-        "predictedChangePct": -0.32,
+        "expectedClosePrice": 1754800,
+        "expectedPrice": 1754800,
+        "expectedCloseChangePct": -0.24,
+        "predictedChangePct": -0.24,
         "expectedCloseRange": {
-          "low": 1641100,
-          "high": 1872500
+          "low": 1642600,
+          "high": 1873900
         },
         "expectedIntradayChangePct": -0.4,
         "upProbability": 52,
@@ -122,48 +122,48 @@
       },
       "ewy": {
         "label": "미국 상장 한국 ETF (EWY)",
-        "close": 175.54,
-        "changePct": -0.54
+        "close": 176.49,
+        "changePct": 0.15
       },
       "soxx": {
         "label": "반도체 ETF (SOXX)",
-        "close": 502.06,
-        "changePct": 0.64
+        "close": 498.85,
+        "changePct": 0.29
       },
       "micron": {
         "label": "Micron",
-        "close": 926.55,
-        "changePct": -0.11
+        "close": 927.6,
+        "changePct": 0.39
       },
       "nvidia": {
         "label": "NVIDIA",
-        "close": 213.9,
-        "changePct": 0.82
+        "close": 212.17,
+        "changePct": 0.57
       },
       "sandisk": {
         "label": "SanDisk",
-        "close": 1519.97,
-        "changePct": -0.71
+        "close": 1530.9,
+        "changePct": -1.36
       },
       "wti": {
         "label": "WTI",
-        "close": 101.66,
-        "changePct": -3.94
+        "close": 101.54,
+        "changePct": -4.05
       },
       "brent": {
         "label": "Brent",
-        "close": 105.36,
-        "changePct": -3.12
+        "close": 105.17,
+        "changePct": -3.29
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1377.24,
-        "changePct": 1
+        "close": 1375.07,
+        "changePct": 0.84
       }
     },
     "finalForecast": {
       "predictionDate": "2026-09-17",
-      "createdAt": "2026-09-16T23:51:09.963Z",
+      "createdAt": "2026-09-17T00:19:02.362Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -177,11 +177,11 @@
           "priorVolume": 482107,
           "volumeRatio": 0.91,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 362200,
-          "expectedOpenChangePct": 0.06,
+          "expectedOpenPrice": 362900,
+          "expectedOpenChangePct": 0.24,
           "expectedOpenRange": {
-            "low": 352300,
-            "high": 373500
+            "low": 353000,
+            "high": 374100
           },
           "expectedClosePrice": 362200,
           "expectedPrice": 362200,
@@ -191,7 +191,7 @@
             "low": 344800,
             "high": 382200
           },
-          "expectedIntradayChangePct": -0.01,
+          "expectedIntradayChangePct": -0.19,
           "upProbability": 49,
           "direction": "혼조권",
           "evaluation": null,
@@ -208,21 +208,21 @@
           "priorVolume": 11757106,
           "volumeRatio": 0.62,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 253800,
-          "expectedOpenChangePct": 0.12,
+          "expectedOpenPrice": 254100,
+          "expectedOpenChangePct": 0.25,
           "expectedOpenRange": {
-            "low": 245300,
-            "high": 262800
+            "low": 245600,
+            "high": 263100
           },
-          "expectedClosePrice": 253100,
-          "expectedPrice": 253100,
-          "expectedCloseChangePct": -0.15,
-          "predictedChangePct": -0.15,
+          "expectedClosePrice": 253200,
+          "expectedPrice": 253200,
+          "expectedCloseChangePct": -0.11,
+          "predictedChangePct": -0.11,
           "expectedCloseRange": {
-            "low": 238400,
-            "high": 265700
+            "low": 238500,
+            "high": 265800
           },
-          "expectedIntradayChangePct": -0.27,
+          "expectedIntradayChangePct": -0.36,
           "upProbability": 54,
           "direction": "혼조권",
           "evaluation": null,
@@ -239,19 +239,19 @@
           "priorVolume": 2857754,
           "volumeRatio": 0.8,
           "foreignNetBuy": null,
-          "expectedOpenPrice": 1760400,
-          "expectedOpenChangePct": 0.08,
+          "expectedOpenPrice": 1761800,
+          "expectedOpenChangePct": 0.16,
           "expectedOpenRange": {
-            "low": 1699200,
-            "high": 1838300
+            "low": 1700600,
+            "high": 1839700
           },
-          "expectedClosePrice": 1753400,
-          "expectedPrice": 1753400,
-          "expectedCloseChangePct": -0.32,
-          "predictedChangePct": -0.32,
+          "expectedClosePrice": 1754800,
+          "expectedPrice": 1754800,
+          "expectedCloseChangePct": -0.24,
+          "predictedChangePct": -0.24,
           "expectedCloseRange": {
-            "low": 1641100,
-            "high": 1872500
+            "low": 1642600,
+            "high": 1873900
           },
           "expectedIntradayChangePct": -0.4,
           "upProbability": 52,
@@ -277,43 +277,43 @@
         },
         "ewy": {
           "label": "미국 상장 한국 ETF (EWY)",
-          "close": 175.54,
-          "changePct": -0.54
+          "close": 176.49,
+          "changePct": 0.15
         },
         "soxx": {
           "label": "반도체 ETF (SOXX)",
-          "close": 502.06,
-          "changePct": 0.64
+          "close": 498.85,
+          "changePct": 0.29
         },
         "micron": {
           "label": "Micron",
-          "close": 926.55,
-          "changePct": -0.11
+          "close": 927.6,
+          "changePct": 0.39
         },
         "nvidia": {
           "label": "NVIDIA",
-          "close": 213.9,
-          "changePct": 0.82
+          "close": 212.17,
+          "changePct": 0.57
         },
         "sandisk": {
           "label": "SanDisk",
-          "close": 1519.97,
-          "changePct": -0.71
+          "close": 1530.9,
+          "changePct": -1.36
         },
         "wti": {
           "label": "WTI",
-          "close": 101.66,
-          "changePct": -3.94
+          "close": 101.54,
+          "changePct": -4.05
         },
         "brent": {
           "label": "Brent",
-          "close": 105.36,
-          "changePct": -3.12
+          "close": 105.17,
+          "changePct": -3.29
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1377.24,
-          "changePct": 1
+          "close": 1375.07,
+          "changePct": 0.84
         }
       }
     },

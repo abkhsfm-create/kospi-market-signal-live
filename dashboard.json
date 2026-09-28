@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T23:58:32.936Z",
+  "generatedAt": "2026-09-28T00:31:33.695Z",
   "freshUntil": "2026-09-28T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-09-28",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "6a43a6b79a77923a3dd0d9d19a66476c2129cb9a",
+  "sourceCommit": "3bca366ae27d7435dd39d48305ca3db24249da97",
   "dashboard": {
     "predictionDate": "2026-09-28",
-    "createdAt": "2026-09-27T23:58:31.149Z",
+    "createdAt": "2026-09-28T00:31:31.917Z",
     "forecastTimeKst": "07:00",
     "performanceEligible": false,
     "recovery": null,
@@ -147,23 +147,23 @@
       },
       "wti": {
         "label": "WTI",
-        "close": 93.46,
-        "changePct": 1.14
+        "close": 93.37,
+        "changePct": 1.04
       },
       "brent": {
         "label": "Brent",
-        "close": 98.66,
-        "changePct": -5.43
+        "close": 98.48,
+        "changePct": -5.6
       },
       "usdkrw": {
         "label": "USD/KRW",
-        "close": 1355,
-        "changePct": -0.9
+        "close": 1359.11,
+        "changePct": -0.6
       }
     },
     "finalForecast": {
       "predictionDate": "2026-09-28",
-      "createdAt": "2026-09-27T23:58:31.149Z",
+      "createdAt": "2026-09-28T00:31:31.917Z",
       "forecastTimeKst": "07:00",
       "performanceEligible": false,
       "recovery": null,
@@ -302,18 +302,18 @@
         },
         "wti": {
           "label": "WTI",
-          "close": 93.46,
-          "changePct": 1.14
+          "close": 93.37,
+          "changePct": 1.04
         },
         "brent": {
           "label": "Brent",
-          "close": 98.66,
-          "changePct": -5.43
+          "close": 98.48,
+          "changePct": -5.6
         },
         "usdkrw": {
           "label": "USD/KRW",
-          "close": 1355,
-          "changePct": -0.9
+          "close": 1359.11,
+          "changePct": -0.6
         }
       }
     },

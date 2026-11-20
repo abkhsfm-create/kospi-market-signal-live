@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T02:37:10.333Z",
+  "generatedAt": "2026-11-20T02:58:33.670Z",
   "freshUntil": "2026-11-20T19:30:00+09:00",
   "phase": "morning",
   "predictionDate": "2026-11-20",
   "forecastTimeKst": "07:00",
-  "sourceCommit": "68f8d9cecd5cec87a8a7d632e3036c264d245309",
+  "sourceCommit": "126e352a4965aa2164c8db18ac654a378aae61f6",
   "dashboard": {
     "predictionDate": "2026-11-20",
     "createdAt": "2026-11-20T02:37:08.379Z",
